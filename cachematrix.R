@@ -1,8 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
-
+## makeCacheMatrix is used to make a cache matrix to store get/set get/setinverse
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
         set <- function(y) {    
@@ -18,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve is used to run the info compared with calculation
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
